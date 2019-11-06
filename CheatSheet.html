@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+		<title>Cheat Sheet</title>
+	</head>
+	<body>
+		<h1>Assingment 1</h1>
+		<p>
+		<h2>Word Wilde Web General</h2>
+		
+			<p>
+			<u><strong>What are the most essential technologies that made the World Wide Web such a success?</strong></u>
+			<br>The hypertext, hypermedia, HTTP and browsers
+			</p>
+			
+			<p>
+			<u><strong>How are resources (html pages, images, etc) addressed in the web?</strong></u>
+			<br>
+			</p>
+			
+			<p><u><strong>What are the general components of a url?</strong></u>
+			<ul class="purple">
+			<li>scheme (non-empty)</li>
+			<li>authority (optinal non-empty)</li>
+				<li>&nbsp;&nbsp;&nbsp;userinfo (optional)</li>
+				<li>&nbsp;&nbsp;&nbsp;host (non empty)</li>
+				<li>&nbsp;&nbsp;&nbsp;port (optional)</li>
+			<li>path</li>
+			<li>query (optinal)</li>
+			<li>fragment (optinal)</li>
+			</ul>
+			</p>
+			
+		<h2>Web Server</h2>
+		
+			<p>
+			<u><strong>What is a web server?</strong></u>
+			<br>A Web server refers to a server software or hardware dedicated to running said software, what can serve contents to the World Wide Web. It also processes incoming network request
+			</p>
+			
+			<p>
+			<u><strong>What does a web server?</strong></u>
+			<br>It stores, process and delivers the web pages to clients.
+			</p>
+			
+			<p>
+			<u><strong>How can content be stored on a web server?</strong></u>
+			<br>On the  Hypertext Transfer Protocol (HTTP)
+			</p>
+			
+			<p>
+			<u><strong>How is content in webpages described?</strong></u>
+			<br>With a HTML document 
+			</p>
+			
+			<h2>Web Client</h2>
+			
+			<p>
+			<u><strong>What is a web client?</strong></u>
+			<br>It is a client-side component within the Java 2 Platform Enterprise Edition (J2EE) and it's a distributed multi-tiered application model used for building and developing enterprise applications.
+			</p>
+			
+			<p>
+			<u><strong>What does a web client?</strong></u>
+			<br>It performs client-side operations as they might need access to information available only on the client side, like user input, or because the server lacks the processing power necessary in such operations.
+			</p>
+			
+			<p>
+			<u><strong>Is a Web Client and a Web Browser the same?</strong></u>
+			<br>The main difference between a Web browser and a Web server is that Web browser requests for the document and services, and act as an interface between a client and a server which displays the web content. On the other hand, Web server accepts, approve, and response to the request made by a web browser for a web document.
+			</p>
+			
+			<h2>Hello World</h2>
+			
+			<p>
+			<u><strong>What is the html head element?</strong></u>
+			<br>The < head > element is a container for all the head elements, wich can inclued documents, scripts, meta information etc.
+			</p>
+			
+			<p>
+			<u><strong>What does < !DOCTYPE` html > mean?</strong></u>
+			<br>It is an instruction to the web browser about what version of HTML the page is written in
+			</p>
+			
+			<p>
+			<u><strong>What are the two top most elements within the html element?</strong></u>
+			<br>Head and body
+			</p>
+			
+			<p>
+			<u><strong>How to emphasize a text and how is it displayed in the browser?</strong></u>
+			<br>With the < em > tag and it bends the text in an angle
+			</p>
+			
+			<p>
+			<u><strong>How to mark up important text and how is it displayed in the browser?</strong></u>
+			<br>With the < strong > tag and it makes the text look fat/wide
+			</p>
+		</p>
+		
+		<h1>Assingment 2</h1>
+		<p>
+			<h2>Html</h2>
+			
+			<u><strong>Name the components of html elements properly</strong></u>
+			<ul>
+			<li class="pruple">HTML Documents</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; All HTML documents must start with a document type declaration: < !DOCTYPE html >
+			<li class="pruple">HTML Headings</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML headings are defined with the < h1 > to < h6 > tags
+			<li class="pruple">HTML Paragraphs</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML paragraphs are defined with the < p > tag
+			<li class="pruple">HTML Links</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML links are defined with the < a > tag
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < a href="https://www.w3schools.com" >This is a link< / a > 
+			<li class="pruple">HTML Images</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML images are defined with the < img > tag. The source file (src), alternative text (alt), width, and height are provided as attributes
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  < img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142" > 
+			<li class="pruple">HTML Buttons</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML buttons are defined with the < button > tag:
+			<li class="pruple">HTML Lists</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML lists are defined with the < ul > (unordered/bullet list) or the < ol > (ordered/numbered list) tag, followed by < li > tags (list items)
+			</ul>
+			
+			<p>
+			<u><strong>Identify void elements and how they are denoted</strong></u>
+			<br>HTML elements with no content are called empty elements. Empty elements can be "closed" in the opening tag like this: < br / >. HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.
+			<ul>The empty elements in HTML are as follows:
+			<li class="purple">< area ></li>
+			<li class="purple">< base ></li>
+			<li class="purple">< br ></li>
+			<li class="purple">< col ></li>
+			<li class="purple">< embed ></li>
+			<li class="purple">< hr ></li>
+			<li class="purple">< img ></li>
+			<li class="purple">< input ></li>
+			<li class="purple">< keygen ></li>
+			<li class="purple">< link ></li>
+			<li class="purple">< meta ></li>
+			<li class="purple">< param ></li>
+			<li class="purple">< source ></li>
+			<li class="purple">< wbr ></li>
+			</ul>
+			</p>
+			
+			<p>
+			<u><strong>Identify attributes</strong></u>
+			<br>Attributes provide additional information about HTML elements and they usually come in name/value pairs like: name="value"
+			<ul>
+			<li class="purple">The href Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML links are defined with the < a > tag. The link address is specified in the href attribute:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < a href="https://www.w3schools.com" >This is a link< / a > 
+			<li class="purple">The src Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; HTML images are defined with the < img > tag. The filename of the image source is specified in the src attribute:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < img src="img_girl.jpg" > 
+			<li class="purple">The width and height Attributes</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; Images in HTML have a set of size attributes, which specifies the width and height of the image:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < img src="img_girl.jpg" width="500" height="600" > 
+			<li class="purple">The alt Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; The alt attribute specifies an alternative text to be used, when an image cannot be displayed. The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < img src="img_girl.jpg" alt="Girl with a jacket" > 
+			<li class="purple">The style Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; The style attribute is used to specify the styling of an element, like color, font, size etc.
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < p style="color:red" >I am a paragraph< / p >  
+			<li class="purple">The lang Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; The language of the document can be declared in the < html > tag. The language is declared with the lang attribute. Declaring a language is important for accessibility applications (screen readers) and search engines:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp; < html lang="en-US" > 
+			<li class="purple">The title Attribute</li>
+			&nbsp;&nbsp;&nbsp;&nbsp; Here, a title attribute is added to the < p > element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;  < p title="I'm a tooltip" >
+			</ul>
+			</p>
+			
+			 <p>
+			 <u><strong>Write down the correct DOCTYPE declaration for html 5</strong></u>
+			 <br> < !DOCTYPE html >
+			 </p>
+			 
+			 <p>
+			 <u><strong>Write down syntactically correct statements for the following elements </strong></u>
+			 <table>
+				 <tr>
+					 <td>Article</td><td>< article > < /article ></td>
+				 </tr>
+				 <tr>
+					 <td>Body</td><td>< body > < /body ></td>
+				 </tr>
+				 <tr>
+					 <td>Line Break</td><td>< br ></td>
+				 </tr>
+				 <tr>
+					 <td>Headings</td><td>< h1 > < /h1 ></td>
+				 </tr>
+				 <tr>
+					<td>Section with meta-information</td><td>< head > < /head ></td>
+				</tr>
+				<tr>
+					<td>Top-Level elements</td><td>< html > < /html ></td>
+				</tr>
+				<tr>
+					<td>Image named</td><td>image.jpg < img src="image.jpg" ></td>
+				</tr>
+				<tr>
+					<td>Paragraphs</td><td>< p > < /p ></td>
+				</tr>
+				<tr>
+					<td>Section</td><td>< section > < /section ></td>
+				</tr>
+				<tr>
+					<td>Label appearing in the title bar</td><td>< title > < /title ></td>
+				</tr>
+				<tr>
+					<td>Link to other website/page</td><td>< a href="url" > < /a ></td>
+				</tr>
+				<tr>
+					<td>Head with title and meta elements</td>
+					<td>
+						< head >
+						<br>&nbsp;&nbsp;&nbsp;< meta charset="utf8" / >
+						<br>&nbsp;&nbsp;&nbsp;< title >Cheat Sheet< /title >
+						<br>< /head >
+					</td>
+				</tr>
+			 </table>
+			 </p>
+			 
+			 <h2>Css</h2>
+			 
+			 <p>
+			 <u><strong>Name the components of a css rule properly</strong></u>
+			 <ul>
+			 <li>Selector</li>
+			 <li>Declaration</li>
+			 <li>Property</li>
+			 <li>Value</li>
+			 </ul>
+			 </p>
+			 
+			 <p>
+			 <u><strong>Use combinators properly: direct child, descendant, adjacent sibling, sibling</strong></u>
+			 <ul>
+			 <li class="purple">Descendant</li>
+			 <br>div p {
+			 <br>background-color: yellow;
+			 <br>}
+			 <li class="purple">Child</li>
+			 <br>div > p {
+			 <br>background-color: yellow;
+			 <br>}
+			 <li class="purple">Adjacent Sibling</li>
+			 <br>div + p {
+			 <br>background-color: yellow;
+			 <br>}
+			 <li class="purple">Sibling </li>
+			 <br>div ~ p {
+			 <br>background-color: yellow;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Specify colors by color names and in hexadecimal notation</strong></u>
+			 <br>In HTML, a color can be specified using a hexadecimal value in the form:
+			 <br>#rrggbb
+			 <br>Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+			 <br>For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+			 <table>
+				 <tr><td>#ff0000</td><td style="color: #ff0000;">Tomato</td></tr>
+				 <tr><td>#0000ff</td><td style="color: #0000ff;">DodgerBlue</td></tr>
+				 <tr><td>#3cb371</td><td style="color: #3cb371;">MediumSeaGreen</td></tr>
+				 <tr><td>#ee82ee</td><td style="color: #ee82ee;">Violett</td></tr>
+				 <tr><td>#ffa500</td><td style="color: #ffa500;">Orange</td></tr>
+				 <tr><td>#6a5acd</td><td style="color: #6a5acd;">SlateBlue</td></tr>
+				 <tr><td>#000000</td><td style="color: #000000;">Black</td></tr>
+				 <tr><td>#787878</td><td style="color: #787878;">Gray</td></tr>
+				 <tr><td>#b4b4b4</td><td style="color: #b4b4b4;">LightGray</td></tr>
+				 <tr><td>#ffffff</td><td style="color: #ffffff;">White</td></tr>
+			 </table>
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declarations for color, background color</strong></u>
+			 <ul>
+			 <li>a valid color name - like "red"</li>
+			 <li>a HEX value - like "#ff0000"</li>
+			 <li>an RGB value - like "rgb(255,0,0)"</li>
+			 </ul>
+			 </p>
+			 
+			 <p>
+			 <u><strong>Pseudo classes for the < a > element</strong></u>
+			 <br>/* unvisited link */
+			 <br>a:link {
+			 <br>color: #FF0000;
+			 <br>}
+			 <br>
+			 <br>/* visited link */
+			 <br>a:visited {
+			 <br>color: #00FF00;
+			 <br>}
+			 <br>
+			 <br>/* mouse over link */
+			 <br>a:hover {
+			 <br>color: #FF00FF;
+			 <br>}
+			 <br>
+			 <br>/* selected link */
+			 <br>a:active {
+			 <br>color: #0000FF;
+			 <br>} 
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declaration for background image</strong></u>
+			 <br>body {
+			 <br>background-image: url("paper.gif");
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declaration for text alignment (left, right, center, justify)</strong></u>
+			 <br>h1 {
+			 <br>text-align: center;
+			 <br>}
+			 <br>
+			 <br>h2 {
+			 <br>text-align: left;
+			 <br>}
+			 <br>
+			 <br>h3 {
+			 <br>text-align: right;
+			 <br>}
+			 <br>
+			 <br>div {
+			 <br>text-align: justify;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declaration for text decoration (overline, underline, line-through)</strong></u>
+			 <br>h1 {
+			 <br>text-decoration: overline;
+			 <br>}
+			 <br>
+			 <br>h2 {
+			 <br>text-decoration: line-through;
+			 <br>}
+			 <br>
+			 <br>h3 {
+			 <br>text-decoration: underline;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declaration for text transformation (uppercase, lowercase, capitalize)</strong></u>
+			 <br>p.uppercase {
+			 <br>text-transform: uppercase;
+			 <br>}
+			 <br>
+			 <br>p.lowercase {
+			 <br>text-transform: lowercase;
+			 <br>}
+			 <br>
+			 <br>p.capitalize {
+			 <br>text-transform: capitalize;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Identify the difference between serif and sans-serif fonts</strong></u>
+			 <br>"Sans" means without - these fonts do not have the lines at the ends of characters
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declarations for font families</strong></u>
+			 <br>p {
+			 <br>font-family: "Times New Roman", Times, serif;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declarations for font style normal and italic</strong></u>
+			 <br>p.normal {
+			 <br>font-style: normal;
+			 <br>}
+			 <br>
+			 <br>p.italic {
+			 <br>font-style: italic;
+			 <br>}
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declarations for font sizes</strong></u>
+			 <br>font-size: 40px;
+			 <br>font-size: 2.5em;
+			 <br>font-weight: normal;
+			 </p>
+			 
+			 <p>
+			 <u><strong>Declarations for font weights</strong></u>
+			 <br>font-weight: normal;
+			 </p>
+		</p>
+		
+		<h1>Assingment 3</h1>
+		<p>
+			<h2>Html for Lists</h2>
+			 <p>
+			 <u><strong>Start tags for </strong></u>
+			 <ul>
+			 <!--<li>An ordered list</li>
+			 <br>An ordered list starts with the < ol > tag. Each list item starts with the < li > tag. The list items will be marked with numbers by default:
+			 <br> < ol >
+			 <br>< li >Coffee< / li >
+			 <br>< li >Tea< / li >
+			 <br>< li >Milk< / li >
+			 <br>< / ol > 
+			 <li>An unordered list</li>
+			 <br>An unordered list starts with the < ul > tag. Each list item starts with the < li > tag. The list items will be marked with bullets (small black circles) by default:
+			 <br>< ul >
+			 <br>< li >Coffee< / li >
+			 <br>< li >Tea< / li >
+			 <br>< li >Milk< / li >
+			 <br>< / ul > 
+			 <li>A description list</li>
+			 <br>A description list is a list of terms, with a description of each term. The < dl > tag defines the description list, the < dt > tag defines the term (name), and the < dd > tag describes each term:
+			 <br>< dl >
+			 <br>< dt >Coffee< / dt >
+			 <br>< dd >- black hot drink< / dd >
+			 <br>< dt >Milk< / dt >
+			 <br>< dd >- white cold drink< / dd >
+			 <br>< / dl >-->
+			 <table>
+				<tr>
+					<td>An Ordered List < ol >(List-items are marked by a number by default)</td>
+					<td>
+						< ol >
+						<br>&nbsp;< li >Coffee< /li >
+						<br>&nbsp;< li >Tea< /li >
+						<br>&nbsp;< li >Milk< /li >
+						<br>< /ol >
+					</td>
+				</tr>
+				<tr>
+					<td>An unordered List < ul >(List-items anr marked with bullets(small black circles) by default)</td>
+					<td>
+							< ul >
+							<br>&nbsp;< li >Coffee< /li >
+							<br>&nbsp;< li >Tea< /li >
+							<br>&nbsp;< li >Milk< /li >
+							<br>< /ul >
+					</td>
+				</tr>
+				<tr>
+					<td>An descriptive List < dl >(List of terms(< dt >) with descriptions of each term(< dd >))</td>
+					<td>
+							< dl >
+							<br>&nbsp;< dt >Coffee< /dt >
+							<br>&nbsp;< dd >- black hot drink< /dd >
+							<br>&nbsp;< dt >Milk< /dt >
+							<br>&nbsp;< dd >- white cold drink< /dd >
+							<br>< /dl >
+					</td>
+				</tr>
+			 </table>
+			 <li>List item < li ></li>
+				<ul>
+				<li type="1">type="1"</li>
+				The list items will be numbered with numbers<br>
+				<li type="A">type="A"</li>
+				The list items will be numbered with uppercase letters<br>
+				<li type="a">type="a"</li>
+				The list items will be numbered with lowercase letters<br>
+				<li type="I">type="I"</li>
+				The list items will be numbered with uppercase roman numbers<br>
+				<li type="i">type="i"</li>
+				The list items will be numbered with lowercase roman numbers<br>
+				</ul>
+			 <li>A description term</li>
+			 <br>The < dt > tag defines each term
+			 <li>A description data</li>
+			 <br>The < dd > tag describes the term
+			 </ul>
+			 </p>
+			 
+			 <h2>Css for Lists</h2>
+			 <p>
+				<p>
+				<u><strong>Make bullet a square</strong></u>
+				<br>ul.b {
+				<br>list-style-type: square;
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Make bullet an image named "my-bullet.png"</strong></u>
+				<br>ul {
+				<br>list-style-image: url('my-bullet.png');
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Make bullet an uppercase roman number</strong></u>
+				<br>ol.c {
+				<br>list-style-type: upper-roman;
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Set bullet position to be inside the list item's text flow</strong></u>
+				<br>ul.b {
+				<br>list-style-position: inside;
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Set bullet position to be outside the list item's text flow</strong></u>
+				<br>ul.a {
+				<br>list-style-position: outside;
+				<br>}
+				</p>
+			 </p>
+			 
+			 <h2>Html for Tables</h2>
+			 <p>
+				<p>
+				<u><strong>Start tags for</strong></u>
+				<ul>
+				<li>a table</li>
+				<br>An HTML table is defined with the < table > tag.
+				<li>a table row</li>
+				<br>Each table row is defined with the < tr > tag.
+				<li>a table header</li>
+				<br>A table header is defined with the < th > tag.
+				<li>a table header cell</li>
+				<br>table, th, td {}
+				<li>a table cell</li>
+				<br>A table data/cell is defined with the < td > tag.
+				<li>a table body</li>
+				<br>< tbody >
+				<li>a table footer</li>
+				<br>< tfoot >
+				</ul>
+				</p>
+			 </p>
+			 
+			 <h2>Css for Tables</h2>
+			 <p>
+				<p>
+				<u><strong>Black dotted border of 1 px width</strong></u>
+				<br>table, th, td {
+				<br>border: 1px solid black;
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Solid border of 1 px width having a red color and rounded corners</strong></u>
+				<br>table, th, td {
+				<br>border-radius: 25px;
+				<br>border: 1px solid red;
+				<br>}
+				</p>
+				
+				<p>
+				<u><strong>Merge the borders of table cells so that they appear as one line</strong></u>
+				<br>table {
+				<br>border-collapse: collapse;
+				<br>}
+				<br>
+				<br>table, th, td {
+				<br>border: 1px solid black;
+				<br>}
+				</p>
+			 </p>
+		</p>
+		
+		<h1>Assingment 4</h1>
+		<p>
+			<h2>Box Model</h2>
+			<p>
+				<p>
+				<u><strong>Block elements have which kind of characteristics?</strong></u>
+				<br>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+				<br>The < div > element is a block-level element.
+				</p>
+				
+				<p>
+				<u><strong>Inline elements have which kind of characteristics?</strong></u>
+				<br>An inline element does not start on a new line and only takes up as much width as necessary.
+				<br>This is an inline < span > element inside a paragraph.
+				</p>
+				
+				<p>
+				<u><strong>What is the margin of an Html element? Where can one find it?</strong></u>
+				<br>It clears an area outside the border. The margin is transparent.
+				<br>Outside the border
+				</p>
+				
+				<p>
+				<u><strong>What is the padding of an Html element? How does it differ from margin?</strong></u>
+				<br>Clears an area around the content.
+				<br>The padding is transparent.
+				</p>
+			</p>
+			
+			<h2>Classes and Ids</h2>
+			<p>
+				<p>
+				<u><strong>Write down a selector for a certain class</strong></u>
+				<br>"p.hometown" is the selector for every paragraphs.
+				</p>
+				
+				<p>
+				<u><strong>Write down a selector for a certain html element of a certain class</strong></u>
+				<br>To do this, start with the element name, then write the period (.) character, followed by the name of the class.
+				<br>Like "p.hometown"
+				</p>
+				
+				<p>
+				<u><strong>Write down a selector for a certain id</strong></u>
+				<br>#firstname
+				</p>
+				
+				<p>
+				<u><strong>Write down a selector for a certain html element of a certain id</strong></u>
+				<br>#firstname
+				</p>
+				
+				<p>
+				<u><strong>Write down the start tag of a certain html element with a specific class.</strong></u>
+				<br>p.
+				</p>
+				
+				<p>
+				<u><strong>Write down the start tag of a certain html element with a specific id.</strong></u>
+				<br>#firstname
+				</p>
+				
+				<p>
+				<u><strong>Do classes select one or more elements?</strong></u>
+				<br>One
+				</p>
+				
+				<p>
+				<u><strong>Do ids select one or more elements?</strong></u>
+				<br>One
+				</p>
+				
+				<p>
+				<u><strong>How often can classes / ids occur on one page?</strong></u>
+				<br>As many times as you need.
+				</p>
+			</p>
+			
+			<h2>Floating</h2>
+			<p>
+				<p>
+				<u><strong>Write down the css declaration to make an html element float to the left</strong></u>
+				<br>img {float: left;}
+				</p>
+				
+				<p>
+				<u><strong>Make an html element stop floating around another (for a specific direction, for all directions)</strong></u>
+				<br>div {clear: none;}
+				<br>img {float: none;}
+				</p>
+
+			</p>
+		</p>
+	</body>
+</html>
